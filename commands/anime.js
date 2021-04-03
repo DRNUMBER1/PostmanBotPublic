@@ -1,11 +1,10 @@
 module.exports = {
     name: 'anime',
     description: "does exactly what it should!",
-    execute(msg, args) {
+    execute(client, msg, args) {
         const cheerio = require('cheerio');
         const request = require('request');
-        const Discord = require('discord.js');
-        const client = new Discord.Client();
+
         function image(msg) {
             var options = {
                 url: "http://results.dogpile.com/serp?qc=images&q=" + "anime ahegao",

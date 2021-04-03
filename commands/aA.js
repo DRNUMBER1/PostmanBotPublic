@@ -1,7 +1,7 @@
 module.exports = {
     name: 'aA',
     description: "A module",
-    execute(msg, args) {
+    execute(client, msg, args) {
         const Discord = require("discord.js")
 
         const embed = new Discord.MessageEmbed() // Ver 12.2.0 of Discord.js

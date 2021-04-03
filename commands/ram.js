@@ -1,7 +1,7 @@
 module.exports = {
     name: 'ram',
     description: "Issue help",
-    execute(msg, args) {
+    execute(client, msg, args) {
         const Discord = require("discord.js")
 
         const embed = new Discord.MessageEmbed()

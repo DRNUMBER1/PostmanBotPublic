@@ -1,7 +1,7 @@
 module.exports = {
     name: 'roll',
     description: "Pings a certains server!",
-    execute(msg, args) {
+    execute(client, msg, args) {
         var roll1 = Math.floor((Math.random() * 10) + 1);
         var roll2 = Math.floor((Math.random() * 10) + 1);
 

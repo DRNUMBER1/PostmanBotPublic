@@ -1,7 +1,7 @@
 module.exports = {
     name: 'purchase',
     description: "Purchase info of Postman++",
-    execute(msg, args) {
+    execute(client, msg, args) {
 
         const Discord = require("discord.js")
 

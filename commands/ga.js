@@ -1,7 +1,7 @@
 module.exports = {
     name: 'ga',
     description: "Are you?",
-    execute(msg, args) {
+    execute(client, msg, args) {
 
         var roll1 = Math.floor((Math.random() * 100) + 1);
 

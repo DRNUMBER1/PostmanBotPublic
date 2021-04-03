@@ -1,7 +1,7 @@
 module.exports = {
     name: 'mc',
     description: "Pings a certains server!",
-    execute(msg, args) {
+    execute(client, msg, args) {
         const ping = require('minecraft-server-util')
 
         if(!args[1]) return msg.channel.send('Pls Type Ip uwu')
