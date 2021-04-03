@@ -13,13 +13,13 @@ for (const file of commandFiles) {
 
 }
 
-const yeet = Math.floor((Math.random() * 10000) + 1);
+//const yeet = Math.floor((Math.random() * 10000) + 1);
 
 client.on('ready', () => {
     console.log('Hey Smart Boi I am on!')
-    client.user.setActivity(`Playing with Postman++ YEET || ${yeet} YEETED`, {
+    client.user.setActivity(`Playing with postman++ | +help for commands`, {
         type: "PLAYING"
-      });
+    });
 });
 
 client.on('message', msg => {

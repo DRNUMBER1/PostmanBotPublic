@@ -13,8 +13,10 @@ module.exports = {
             table.push(`\nYou can use ${prefix}help [command name] to get info about a specific command.`)
 
             const embed = new Discord.MessageEmbed()
-            .setTitle(`Postman Help\nMy prefix is **${prefix}**`)
-            .setDescription(table)
+            .setTitle(`Postman Help`)
+            .setDescription(`My prefix is **${prefix}** for all commands.`)
+            .addField(`Commands\n`, table, false)
+            .setTimestamp()
             msg.channel.send(embed)
 
             return;
@@ -37,6 +39,7 @@ module.exports = {
         const embed = new Discord.MessageEmbed()
         .setTitle(`${cap(command.name)} Command`)
         .setDescription(table)
+        .setTimestamp()
         msg.channel.send(embed)
     }
 }
