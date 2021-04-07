@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const { prefix, token } = require("./config.json");
+const { prefix } = require("./config.json");
 const fs = require('fs');
 
 client.commands = new Discord.Collection();
@@ -37,4 +37,4 @@ client.on('message', msg => {
     if (cmd) cmd.execute(client, msg, args)
 });
 
-client.login(token);
+client.login(process.env.token);
