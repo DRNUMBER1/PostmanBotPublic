@@ -1,7 +1,7 @@
 module.exports = {
     name: 'ban',
     description: "This command bans a member",
-    execute(msg, args){
+    execute(client, msg, args){
         if (!msg.member.hasPermission("ADMINISTRATOR")) {
             return msg.reply("You don't have permission to do that.");
         }

@@ -1,11 +1,10 @@
 module.exports = {
     name: 'meme',
     description: "Shows a meme!",
-    execute(msg, args) {
+    execute(client, msg, args) {
         const cheerio = require('cheerio');
         const request = require('request');
-        const Discord = require('discord.js');
-        const client = new Discord.Client();
+
         function image(msg) {
             var options = {
                 url: "http://results.dogpile.com/serp?qc=images&q=" + "meme",

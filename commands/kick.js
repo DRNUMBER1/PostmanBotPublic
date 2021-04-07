@@ -1,9 +1,7 @@
 module.exports = {
     name: 'kick',
     description: "This command kicks a member",
-    execute(msg, args) {
-        const Discord = require('discord.js');
-        const client = new Discord.Client();
+    execute(client, msg, args) {
        if (!msg.member.hasPermission("ADMINISTRATOR") || client.users.cache.find(user => user.id === '249347998742609923')) {
             return msg.reply("You don't have permission to do that.");
         }

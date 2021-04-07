@@ -1,7 +1,7 @@
 module.exports = {
     name: 'uwu',
     description: "does exactly what it should!",
-    execute(msg, args) {
+    execute(client, msg, args) {
         const cheerio = require('cheerio');
         const request = require('request');
 

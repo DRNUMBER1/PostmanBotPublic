@@ -1,7 +1,7 @@
 module.exports = {
     name: 'cape',
     description: "Shows Cape of postman++",
-    execute(msg, args) {
+    execute(client, msg, args) {
         const Discord = require("discord.js")
 
         const embed = new Discord.MessageEmbed()
