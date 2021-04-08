@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'aA',
+    name: 'autoarmor',
     description: "A module",
     execute(client, msg, args) {
         const Discord = require("discord.js")

@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'ga',
+    name: 'gay',
     description: "Are you?",
     execute(client, msg, args) {
 
