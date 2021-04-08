@@ -34,7 +34,8 @@ module.exports = {
             
             }
             image(msg);
-        } else if(args[0 === 'spanish']){
+
+        } else if(args[0] === 'spanish' ){
             function image(msg) {
                 var options = {
                     url: "http://results.dogpile.com/serp?qc=images&q=" + "spanish meme",
