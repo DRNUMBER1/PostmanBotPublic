@@ -8,7 +8,7 @@ module.exports = {
         const embed = new Discord.MessageEmbed()
         .setTitle("Support Postman Bot!")
         .setDescription("You can support postman bot by starring it on github. :3!")
-        .addField("_Github_", "https://github.com/DRNUMBER1/PostmanBotPublic", false)
+        .addField("**Github**", "https://github.com/DRNUMBER1/PostmanBotPublic", false)
         msg.channel.send(embed);
 
 
