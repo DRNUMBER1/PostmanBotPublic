@@ -3,7 +3,7 @@ module.exports = {
     description: "Reacts at a suggestion",
     execute(client, msg, args) {
 
-        let suggest = agrs[0];
+        let suggest = args[0];
 
         if (!suggest) {
             msg.channel.send("please provide the suggestion!").then(async (e) => {
