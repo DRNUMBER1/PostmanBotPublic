@@ -13,6 +13,16 @@
     "discord": "^0.8.2",
     "discord.js": "^12.5.1",
     "minecraft-server-util": "^3.4.3",
+    "node-fetch": "^2.6.1",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChompChompDead/PostmanBotPublic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChompChompDead/PostmanBotPublic/issues"
+  },
+  "homepage": "https://github.com/ChompChompDead/PostmanBotPublic#readme"
 }
