@@ -3,7 +3,7 @@ module.exports = {
     description: "Are you?",
     execute(client, msg, args) {
 
-        var roll1 = Math.floor((Math.random() * 1001) + 1);
+        var roll1 = Math.floor((Math.random() * 101) + 1);
 
         if(msg.author.id === "249347998742609923") {
             msg.channel.send("You are 99% Gay!");
