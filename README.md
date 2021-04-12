@@ -25,3 +25,5 @@ with your prefix-
   "prefix": "c!"
 }
 
+discord- https://discord.gg/M7qrtgkBqE
+:dab:
